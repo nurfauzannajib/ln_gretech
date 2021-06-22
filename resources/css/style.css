@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+header,
+main {
+  width: 1140px;
+  margin: auto;
+}
+
+.container-head {
+  background-color: #ffff;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1.5em;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: #485e68;
+}
+
+button.nav-button {
+  padding: 12px 19px;
+  border: 2.7px solid #0066ff;
+  background-color: transparent;
+  font-size: 15px;
+  color: #485e68;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jumbo-text {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.text {
+  font-size: 70px;
+  color: #485e68;
+}
+
+.desc {
+  margin-top: 40px;
+  font-size: 25px;
+  color: #9f9f9f;
+  font-family: "Nunito Sans";
+}
+
+button.cta {
+  margin-top: 40px;
+  background-color: #0066ff;
+  padding: 25px 44px;
+  color: white;
+  border: none;
+  font-size: 30px;
+}
+
+.jumbo-img {
+  position: absolute;
+  right: 0%;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header {
+    width: 325px;
+    margin: auto;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .jumbo-img {
+    display: none;
+  }
+  .jumbo-text {
+    width: 100%;
+  }
+  .text {
+    font-size: 33px;
+    color: #485e68;
+  }
+  .desc {
+    margin-top: 25px;
+    font-size: 13px;
+    color: #9f9f9f;
+    font-family: "Nunito Sans";
+  }
+  button.cta {
+    margin-top: 25px;
+    background-color: #0066ff;
+    padding: 10px 18px;
+    color: white;
+    border: none;
+    font-size: 10px;
+  }
+}
