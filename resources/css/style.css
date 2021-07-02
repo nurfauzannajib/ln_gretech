@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -47,7 +47,7 @@ nav {
 
 button.nav-button {
   padding: 12px 19px;
-  border: 2.7px solid #0066ff;
+  border: 3px solid #0066ff;
   background-color: transparent;
   font-size: 15px;
   color: #485e68;
@@ -59,35 +59,42 @@ button.nav-button {
 }
 
 .jumbo-text {
-  margin-top: 40px;
+  margin-top: 60px;
   font-size: 30px;
 }
 
 .text {
-  font-size: 70px;
+  font-size: 73px;
   color: #485e68;
+  font-weight: 700;
 }
 
 .desc {
-  margin-top: 40px;
+  margin-top: 60px;
   font-size: 25px;
   color: #9f9f9f;
   font-family: "Nunito Sans";
 }
 
 button.cta {
-  margin-top: 40px;
+  margin-top: 60px;
   background-color: #0066ff;
   padding: 25px 44px;
   color: white;
   border: none;
   font-size: 30px;
 }
-
 .jumbo-img {
   position: absolute;
   right: 0%;
 }
+.square {
+  width: 100%;
+  margin-top: 160px;
+  height: 500px;
+  background-color: #e9f9ff;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   header {
     width: 325px;
